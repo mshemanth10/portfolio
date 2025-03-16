@@ -41,7 +41,7 @@ nav ul li a:hover {
     color: #ffdd57;
 }
 
-.experience-container {
+.education-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,20 +53,18 @@ nav ul li a:hover {
     animation: fadeInUp 1.5s forwards ease-in-out;
 }
 
-.experience-card {
+.education-card {
     background: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     margin: 20px;
     width: 60%;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    animation: slideIn 1.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
-.experience-card:hover {
+.education-card:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes fadeInUp {
@@ -77,17 +75,6 @@ nav ul li a:hover {
     to {
         opacity: 1;
         transform: translateY(0);
-    }
-}
-
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateX(-50px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
     }
 }
 
