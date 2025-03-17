@@ -82,7 +82,7 @@ footer {
     background-color: #222;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 3px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -95,5 +95,5 @@ a {
 }
 
 a:hover {
-    color: #ffdd57;
+    color: #776931;
 }
