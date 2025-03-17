@@ -3,28 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - M S Hemanth</title>
-    <link rel="stylesheet" href="about.css">
+    <title>Contact - M S Hemanth</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header>
-        <h1>About Me</h1>
+        <h1>Contact Me</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="education.html">Education</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     
-    <section class="about-container">
-        <img src="Hemanth.jpg" alt="M S Hemanth" class="profile-img">
-        <div class="about-text">
-            <h2>Hello, I'm M S Hemanth</h2>
-            <p>I am a Computer Science and Engineering student passionate about technology, programming, and web development. With skills in Python, C, Java, and full-stack development, I thrive in solving real-world problems through innovative solutions.</p>
-            <p>Currently, I am exploring AI-powered applications and working on projects that enhance user experience and automation.</p>
-        </div>
+    <section class="contact-container">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
     </section>
     
     <footer>
